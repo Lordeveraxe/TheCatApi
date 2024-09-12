@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TheCatApi</string>
+    <string name="details">Details</string>
+    <string name="imageDescription">CatImages</string>
+    <string name="loadPercentage">0%</string>
+    <string name="progress_percentage">%1$d%%</string>
+    <string name="loading_more_breeds">Loading more breeds...</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+</resources>
