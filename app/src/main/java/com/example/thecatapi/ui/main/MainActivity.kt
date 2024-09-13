@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
         // Observe LiveData for breed data
         viewModel.breedData.observe(this) { breedsWithImages ->
             breedAdapter.updateData(breedsWithImages)  // Update the list with the new page data
+            recyclerView.scrollToPosition(0) // Scroll back to the top of the list
         }
 
         // Observe UI state
